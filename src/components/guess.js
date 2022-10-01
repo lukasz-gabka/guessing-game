@@ -1,11 +1,11 @@
 import { Col } from "react-bootstrap";
 
-function Letter(props) {
+function Guess(props) {
     return (
-        <Col md='auto' className='mx-3 letter d-inline'>
+        <Col md='auto' className='mx-3 guess d-inline'>
           <p>{props.letter}</p>
         </Col>
     );
 }
 
-export default Letter;
+export default Guess;

@@ -1,7 +1,7 @@
 import './stylesheets/App.css';
 import { Container, Image, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Letter from './components/letter';
+import Guess from './components/guess';
 
 function App() {
   return ( 
@@ -10,13 +10,12 @@ function App() {
         <Image src="images/fruits/apple.jpg" id='guessingImage' fluid />
       </Row>
       <Row fluid className='justify-content-center'>
-        <Letter letter="J" />
-        <Letter letter="A"/>
-        <Letter letter="B"/>
-        <Letter letter="Ł"/>
-        <Letter letter=""/>
-        <Letter letter=""/>
-        
+        <Guess letter="J" />
+        <Guess letter="A"/>
+        <Guess letter="B"/>
+        <Guess letter="Ł"/>
+        <Guess letter=""/>
+        <Guess letter=""/>
       </Row>
     </Container>
   );
