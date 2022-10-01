@@ -1,7 +1,7 @@
-import './stylesheets/app.css';
+import './stylesheets/App.css';
 import { Container, Image, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Guess from './components/guess';
+import Guess from './components/Guess';
 
 function App() {
   return ( 
