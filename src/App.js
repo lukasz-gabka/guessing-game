@@ -1,4 +1,4 @@
-import './stylesheets/App.css';
+import './stylesheets/app.css';
 import { Container, Image, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Guess from './components/guess';

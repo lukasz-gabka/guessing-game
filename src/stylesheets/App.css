@@ -8,10 +8,3 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
-.guess {
-  font-size: 5rem;
-  font-weight: bolder;
-  border-bottom: 10px solid black;
-  min-width: 3rem;
-}

@@ -1,4 +1,5 @@
 import { Col } from "react-bootstrap";
+import '../stylesheets/guess.css';
 
 function Guess(props) {
     return (
